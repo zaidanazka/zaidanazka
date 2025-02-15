@@ -32,12 +32,6 @@
 
 ###
 
-<div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=zaidanazka.zaidanazka&left_color=darkblue&right_color=black&left_text=VIEWS"  />
-</div>
-
-###
-
 <br clear="both">
 
 <div align="center">
