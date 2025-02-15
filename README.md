@@ -1,7 +1,3 @@
-<img align="left" height="200" src="https://avatars.githubusercontent.com/u/153197585?v=4"  />
-
-###
-
 <h1 align="center">HI👋🏻 My Name ZAIDAN</h1>
 
 ###
