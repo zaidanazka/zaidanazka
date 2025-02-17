@@ -1,29 +1,151 @@
-
 body {
+  font-family: Arial, sans-serif;
+  margin: 0;
   padding-top: 56px; /* Adjust for fixed navbar */
+}
+
+.navbar {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e7e7e7;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
 }
 
 .navbar-brand {
   font-weight: bold;
 }
 
+.navbar-toggler {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 30px;
+  height: 2px;
+  background-color: #333;
+  position: relative;
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: #333;
+  position: absolute;
+  left: 0;
+}
+
+.navbar-toggler-icon::before {
+  top: -8px;
+}
+
+.navbar-toggler-icon::after {
+  top: 8px;
+}
+
+.navbar-collapse {
+  display: none;
+}
+
+.navbar-collapse.show {
+  display: block;
+}
+
+.navbar-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-item {
+  margin: 0;
+}
+
 .nav-link {
+  text-decoration: none;
+  color: #333;
   font-size: 1.1rem;
+}
+
+.nav-link.active {
+  font-weight: bold;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.mt-5 {
+  margin-top: 5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.lead {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.25rem;
 }
 
 .btn-primary {
   background-color: #007bff;
-  border-color: #007bff;
+  color: #fff;
 }
 
 .btn-outline-secondary {
-  border-color: #6c757d;
+  background-color: transparent;
+  border: 1px solid #6c757d;
   color: #6c757d;
 }
 
 .footer {
   background-color: #f8f9fa;
   padding: 1rem 0;
+  border-top: 1px solid #e7e7e7;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer a {
