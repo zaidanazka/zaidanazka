@@ -6,7 +6,7 @@
 
 ###
 
-<h4 align="center">My Skill</h4>
+<h4 align="center">Keahlian Saya</h4>
 
 ###
 
