@@ -1,0 +1,36 @@
+
+body {
+  padding-top: 56px; /* Adjust for fixed navbar */
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-outline-secondary {
+  border-color: #6c757d;
+  color: #6c757d;
+}
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 1rem 0;
+}
+
+.footer a {
+  color: #6c757d;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
